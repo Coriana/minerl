@@ -54,3 +54,5 @@ Other
 
 - `Data analysis for vector obfuscation/kmeans <https://github.com/GJuceviciute/MineRL-2020>`_
 - `Malmo and MineRL tutorial <https://tsmatz.wordpress.com/2020/07/09/minerl-and-malmo-reinforcement-learning-in-minecraft/>`_
+- `Minecraft_UI Yolo Weights <https://github.com/Coriana/Minecraft_UI_Yolo/>`_
+
