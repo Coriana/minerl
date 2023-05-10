@@ -133,7 +133,7 @@ def prep_mcp():
         os.chdir(os.path.join(mydir, 'scripts'))
 
         try:
-            setup_output = subprocess.check_output(['bash.exe', 'setup_mcp.sh']).decode(errors="ignore")
+            setup_output = subprocess.check_output(['sh.exe', 'setup_mcp.sh']).decode(errors="ignore")
             if "ERROR: JAVA_HOME" in setup_output:
                 raise RuntimeError(
                     """
@@ -151,7 +151,7 @@ def prep_mcp():
                     should also work.
                     """
                 )
-            subprocess.check_call(['bash.exe', 'patch_mcp.sh'])
+            subprocess.check_call(['sh.exe', 'patch_mcp.sh'])
         except subprocess.CalledProcessError as e:
             raise RuntimeError(
                 """
